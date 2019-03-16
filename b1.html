@@ -17,8 +17,8 @@
 	for ( var j = 0; j < phones.length - 1; j++ ){
 	for ( var i = 0; i < phones.length - 1; i++ ){
 	
-	get_price = +phones[i][1].substr(0,1);
-	get_price_next = +phones[i+1][1].substr(0,1);
+	get_price = parseInt(phones[i][1]);
+	get_price_next = parseInt(phones[i+1][1]);
 
 	if ( get_price > get_price_next){
 
